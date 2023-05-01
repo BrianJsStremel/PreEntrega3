@@ -1,0 +1,50 @@
+
+h1 {
+
+    font-family: 'Courgette', cursive;
+    font-family: 'Creepster', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    font-size: 200%;
+    background-color: black;
+    border: 4px solid orange;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: orange;
+    padding: 5px;
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
+
+
+
+.map {
+   
+    /* Ancho del contenedor */
+    height: 800px;
+    width: 500px;
+    /* Ancho máximo de la imagen */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+}
+
+/* ANCHO MAXIMO  Ubicacion*/
+@media (max-width: 540px) {
+
+.map{
+    max-width: 100vw;
+    height: 270px;
+    width: 400px;
+}
+}

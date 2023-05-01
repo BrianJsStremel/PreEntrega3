@@ -1,0 +1,128 @@
+.main-quienes-somos {
+   .video {
+      width: 650px;
+      height: 300px;
+      margin: auto;
+
+   }
+
+   .seccion-you {
+      width: 740px;
+      height: 300px;
+   }
+
+   p {
+      color: orange;
+      margin-left: 500px;
+      background-color: rgb(3, 3, 3);
+      font-size: 25px;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+      display: block;
+      margin: 50px;
+   }
+
+
+}
+
+
+
+header {
+   .navbar {
+      display: flex;
+      flex-wrap: inherit;
+      flex-direction: column;
+      align-items: center;
+      width: 1990px;
+      margin: 20px;
+      padding: 20px;
+
+      .container-fluid {
+         display: flex;
+         flex-wrap: inherit;
+         flex-direction: column;
+         align-items: center;
+         margin: 20px;
+      }
+   }
+
+   .nav-link {
+      margin: 7px;
+      padding: 15px;
+   }
+}
+
+main {
+   h1 {
+      font-family: 'Courgette', cursive;
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: space-around;
+      font-size: 200%;
+      background-color: black;
+      border: 4px solid orange;
+      align-items: center;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: orange;
+      padding: 5px;
+      margin-top: 10px;
+      background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+   }
+}
+
+.logo {
+   width: 200px;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   border: 5px groove orange;
+   border-radius: 20px;
+   margin: 20px;
+   padding: 10px;
+
+}
+
+
+/* ANCHO MAXIMO  Quienes-Somos*/
+@media (max-width: 540px) {
+   .main-quienes-somos {
+      .video {
+         position: relative;
+         right: -10px;
+      }
+
+      .seccion-you {
+         width: 500px;
+         right: 400px;
+         height: 300px;
+         margin: auto;
+      }
+   }
+
+   section .nuestrahistoria {
+      color: violet;
+   }
+
+   .logo {
+      max-width: 186px;
+   }
+
+   .navbar {
+      width: 700px;
+   }
+
+   .logoface {
+      width: 80px;
+   }
+
+   .logoinsta {
+      width: 80px;
+   }
+
+   .logoyou {
+      width: 80px;
+   }
+}

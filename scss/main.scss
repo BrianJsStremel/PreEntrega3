@@ -1,0 +1,20 @@
+// Varibales
+@import "../utilities/colors";
+@import "../utilities/typo.scss";
+
+
+// Reset
+
+@import "../utilities/reset";
+@import "./body";
+@import "../utilities/mixin-extend";
+
+// SECTIONS
+@import "./footer";
+@import "./header";
+@import "./main-index";
+@import "./ventas";
+@import "./ubicacion";
+@import "./galeria";
+@import "./quienes-somos";
+@import "./contactos";

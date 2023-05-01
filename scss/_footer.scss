@@ -1,0 +1,55 @@
+footer {
+    padding: 1rem;
+    clear: left;
+    text-align: center;
+    background-color: rgb(81, 94, 89);
+
+    .flex-redes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        align-items: flex-end;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+ .logoface{
+width: 80px;
+height: 80px;
+ }
+
+ .logoinsta{
+width: 80px;
+height: 80px;
+ }
+
+ .logoyou{
+    width: 80px;
+    height: 80px;
+ }
+ .logoface:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.5);
+    border: 5px groove orange;
+    border-radius: 20px;
+}
+
+.logoyou:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.5);
+    border: 5px groove orange;
+    border-radius: 20px;
+}
+
+.logoinsta:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.5);
+    border: 5px groove orange;
+    border-radius: 20px;
+}
+
+
+
+}
