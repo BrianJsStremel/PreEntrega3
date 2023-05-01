@@ -405,13 +405,13 @@ footer {
       justify-content: space-between; }
     footer .logoface {
       width: 55px;
-      height: 35px; }
+      height: 55px; }
     footer .logoinsta {
       width: 55px;
-      height: 35px; }
+      height: 55px; }
     footer .logoyou {
       width: 55px;
-      height: 35px; } }
+      height: 55px; } }
 
 h1 {
   font-family: 'Courgette', cursive;
@@ -483,19 +483,28 @@ h1 {
 .imagen01 {
   grid-area: img00;
   width: 500px;
-  height: 334px; }
+  height: 334px;
+  border: 10px solid orange;
+  border-radius: 60px; }
 
 .imagen02 {
   grid-area: img01;
-  width: 500px; }
+  width: 500px;
+  border: 10px solid orange;
+  border-radius: 60px; }
 
 .imagen03 {
   grid-area: img02;
-  width: 500px; }
+  width: 500px;
+  border: 10px solid orange;
+  border-radius: 60px; }
 
 .imagen04 {
   grid-area: img3;
-  width: 500px; }
+  width: 500px;
+  border: 10px solid orange;
+  border-radius: 60px;
+  background-color: #7579ff; }
 
 .volver-arriba {
   align-items: center;
