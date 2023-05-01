@@ -295,8 +295,7 @@ header .navbar {
   border: 2px solid orange;
   margin-top: 1rem; }
 
-.main-ventas a.voLver-arriba {
-  background-color: #f00909;
+.main-ventas .volver-arriba {
   font-size: 10px;
   align-items: center;
   margin-left: 20px;
