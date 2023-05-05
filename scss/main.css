@@ -833,13 +833,12 @@ label {
 }
 
 /* ANCHO MAXIMO  Contacto*/
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   label {
     color: rgb(245, 247, 242);
     background-color: rgb(9, 10, 10);
   }
   .formulario {
-    display: flex;
     background-color: #aa7f7f;
     padding: 40px;
     padding-top: 40px;
