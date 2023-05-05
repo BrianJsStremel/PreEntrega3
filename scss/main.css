@@ -2,61 +2,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background-image: url("../img/farmaciafondo.jpg");
   max-width: 100%;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .main__section, .main-index .main__section1 {
   color: orange;
   margin-left: 500px;
-  background-color: #535151;
+  background-color: rgb(83, 81, 81);
   font-size: 40px;
   font-family: sans-serif;
   text-align: center;
   padding: 20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 footer {
   padding: 1rem;
   clear: left;
   text-align: center;
-  background-color: #515e59; }
-  footer .flex-redes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-content: center;
-    align-items: flex-end;
-    padding: 1rem;
-    justify-content: space-between; }
-  footer .logoface {
-    width: 80px;
-    height: 80px; }
-  footer .logoinsta {
-    width: 80px;
-    height: 80px; }
-  footer .logoyou {
-    width: 80px;
-    height: 80px; }
-  footer .logoface:hover {
-    background-color: #fefbfb;
-    transform: scale(1.5);
-    border: 5px groove orange;
-    border-radius: 20px; }
-  footer .logoyou:hover {
-    background-color: #fefbfb;
-    transform: scale(1.5);
-    border: 5px groove orange;
-    border-radius: 20px; }
-  footer .logoinsta:hover {
-    background-color: #fefbfb;
-    transform: scale(1.5);
-    border: 5px groove orange;
-    border-radius: 20px; }
+  background-color: rgb(81, 94, 89);
+}
+footer .flex-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+  justify-content: space-between;
+}
+footer .logoface {
+  width: 80px;
+  height: 80px;
+}
+footer .logoinsta {
+  width: 80px;
+  height: 80px;
+}
+footer .logoyou {
+  width: 80px;
+  height: 80px;
+}
+footer .logoface:hover {
+  background-color: rgb(254, 251, 251);
+  transform: scale(1.5);
+  border: 5px groove orange;
+  border-radius: 20px;
+}
+footer .logoyou:hover {
+  background-color: rgb(254, 251, 251);
+  transform: scale(1.5);
+  border: 5px groove orange;
+  border-radius: 20px;
+}
+footer .logoinsta:hover {
+  background-color: rgb(254, 251, 251);
+  transform: scale(1.5);
+  border: 5px groove orange;
+  border-radius: 20px;
+}
 
 header {
   display: flex;
@@ -64,7 +75,8 @@ header {
   margin-right: 20px;
   text-align: center;
   margin: auto;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 .nav-link {
   align-items: center;
@@ -76,7 +88,8 @@ header {
   background-color: black;
   border: 2px solid orange;
   display: inline-block;
-  padding: 5px; }
+  padding: 5px;
+}
 
 a.nav-link {
   display: flex;
@@ -89,11 +102,13 @@ a.nav-link {
   background-color: black;
   border: 2px solid orange;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+}
 
 .nav-link:hover {
-  background-color: #fefbfb;
-  transform: scale(1.3); }
+  background-color: rgb(254, 251, 251);
+  transform: scale(1.3);
+}
 
 .main-index .logo2 {
   display: flex;
@@ -101,22 +116,22 @@ a.nav-link {
   justify-content: flex-start;
   align-items: space-around;
   align-content: center;
-  margin: auto; }
-
+  margin: auto;
+}
 .main-index .main__section, .main-index .main__section1 {
   margin-left: 500px;
-  background-color: #535151;
+  background-color: rgb(83, 81, 81);
   font-size: 24px;
   font-family: sans-serif;
   text-align: center;
   padding: 20px;
-  margin: 0 auto; }
-
+  margin: 0 auto;
+}
 .main-index .main__section1 {
-  background-color: #7375a0; }
-
+  background-color: #7375a0;
+}
 .main-index h1 {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -130,25 +145,25 @@ a.nav-link {
   color: orange;
   padding: 5px;
   margin-top: 10px;
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); }
-
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 .main-index h3 {
-  color: #070706;
+  color: rgb(7, 7, 6);
   margin-left: 500px;
-  background-color: #cac6c6;
+  background-color: rgb(202, 198, 198);
   font-size: 25px;
   margin: 15px 0;
-  text-align: center; }
-
+  text-align: center;
+}
 .main-index h4 {
   color: black;
   font-size: 30px;
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   padding: 5px;
   margin: 2px;
   background-color: thistle;
-  text-align: center; }
-
+  text-align: center;
+}
 .main-index .volver-arriba {
   align-items: center;
   margin-left: 20px;
@@ -159,41 +174,46 @@ a.nav-link {
   border: 2px solid orange;
   display: inline-block;
   padding: 5px;
-  margin: 20px; }
-
+  margin: 20px;
+}
 .main-index .volver-arriba:hover {
-  background-color: #fefbfb;
-  transform: scale(1.5); }
+  background-color: rgb(254, 251, 251);
+  transform: scale(1.5);
+}
 
 footer {
   padding: 1rem;
   clear: left;
-  text-align: center; }
-  footer .flex-redes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-content: center;
-    align-items: flex-end;
-    padding: 1rem;
-    justify-content: space-between; }
+  text-align: center;
+}
+footer .flex-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+  justify-content: space-between;
+}
 
 @media (max-width: 360px) {
   .main-index .logo2 {
-    width: 300px; }
+    width: 300px;
+  }
   .main-index p {
-    color: #459ae9;
+    color: rgb(69, 154, 233);
     margin-left: 500px;
-    background-color: #030303;
+    background-color: rgb(3, 3, 3);
     font-size: 12px;
     font-family: sans-serif;
     text-align: center;
     padding: 1px;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
   .main-index h1 {
-    font-family: 'Courgette', cursive;
+    font-family: "Courgette", cursive;
     font-size: 110%;
     background-color: black;
     border: 4px solid orange;
@@ -202,14 +222,16 @@ footer {
     margin-right: 10px;
     color: orange;
     padding: 5px;
-    margin-top: 10px; }
+    margin-top: 10px;
+  }
   .main-index h3 {
     color: #040e02;
     background-color: #cac6c6;
     font-size: 16px;
     margin: 5px 0;
     text-align: center;
-    max-width: 45vw; }
+    max-width: 45vw;
+  }
   header .navbar {
     display: flex;
     flex-wrap: inherit;
@@ -217,8 +239,9 @@ footer {
     align-items: center;
     width: 300px;
     margin: 20px;
-    padding: 20px; } }
-
+    padding: 20px;
+  }
+}
 header .navbar {
   display: flex;
   flex-wrap: inherit;
@@ -226,13 +249,15 @@ header .navbar {
   align-items: center;
   width: 1990px;
   margin: 20px;
-  padding: 20px; }
-  header .navbar .container-fluid {
-    display: flex;
-    flex-wrap: inherit;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px; }
+  padding: 20px;
+}
+header .navbar .container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
 
 .logoventa {
   width: 500px;
@@ -245,10 +270,11 @@ header .navbar {
   margin-left: 600px;
   border: 10px solid orange;
   margin-top: 50px;
-  border-radius: 60px; }
+  border-radius: 60px;
+}
 
 .main-ventas h1 {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -262,19 +288,20 @@ header .navbar {
   color: orange;
   padding: 5px;
   margin-top: 10px;
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); }
-
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 .main-ventas h2 {
-  color: #070706;
+  color: rgb(7, 7, 6);
   margin-left: 500px;
-  background-color: #cac6c6;
+  background-color: rgb(202, 198, 198);
   font-size: 30px;
   margin: 15px 0;
   text-align: center;
-  font-family: 'Courgette', cursive; }
-
+  font-family: "Courgette", cursive;
+}
 .main-ventas h3 {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .main-ventas .contenedor-items {
   display: flex;
@@ -289,20 +316,20 @@ header .navbar {
   align-items: baseline;
   justify-content: center;
   width: 100%;
-  text-align: center; }
-
+  text-align: center;
+}
 .main-ventas .columnasx2 {
   padding: 2%;
   align-items: center;
   margin-left: 20px;
   margin-right: 10px;
   font-weight: 800;
-  color: #0e0a03;
+  color: rgb(14, 10, 3);
   font-size: 20px;
-  background-color: #f8f6f6;
+  background-color: rgb(248, 246, 246);
   border: 2px solid orange;
-  margin-top: 1rem; }
-
+  margin-top: 1rem;
+}
 .main-ventas .volver-arriba {
   font-size: 10px;
   align-items: center;
@@ -313,44 +340,51 @@ header .navbar {
   background-color: black;
   border: 2px solid orange;
   display: inline-block;
-  padding: 5px; }
+  padding: 5px;
+}
 
 footer {
   padding: 1rem;
   clear: left;
   text-align: center;
-  background-color: #515e59; }
-  footer .flex-redes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-content: center;
-    align-items: flex-end;
-    padding: 1rem;
-    justify-content: space-between; }
+  background-color: rgb(81, 94, 89);
+}
+footer .flex-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+  justify-content: space-between;
+}
 
 @media (max-width: 360px) {
   header {
     width: 100px;
     margin: 0;
-    padding: 0; }
-    header .navbar {
-      margin: 20px;
-      padding: 5px;
-      left: 43px;
-      width: 200px; }
+    padding: 0;
+  }
+  header .navbar {
+    margin: 20px;
+    padding: 5px;
+    left: 43px;
+    width: 200px;
+  }
   .container-fluid {
     display: flex;
     flex-wrap: inherit;
     flex-direction: column;
     align-items: center;
-    margin: 30px; }
-    .container-fluid .logo {
-      width: 165px;
-      height: 95px;
-      padding: 1px;
-      margin: 0; }
+    margin: 30px;
+  }
+  .container-fluid .logo {
+    width: 165px;
+    height: 95px;
+    padding: 1px;
+    margin: 0;
+  }
   .main-ventas .contenedor-items {
     display: flex;
     flex-wrap: wrap;
@@ -365,19 +399,22 @@ footer {
     justify-content: center;
     width: 100%;
     text-align: center;
-    align-content: center; }
+    align-content: center;
+  }
   .main-ventas h2 {
-    color: #070706;
+    color: rgb(7, 7, 6);
     margin-left: 500px;
-    background-color: #cac6c6;
+    background-color: rgb(202, 198, 198);
     font-size: 20px;
     margin: 15px 0;
     text-align: center;
-    font-family: 'Courgette', cursive; }
+    font-family: "Courgette", cursive;
+  }
   .main-ventas h3 {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .main-ventas h1 {
-    font-family: 'Courgette', cursive;
+    font-family: "Courgette", cursive;
     display: flex;
     flex-wrap: nowrap;
     align-content: stretch;
@@ -392,7 +429,8 @@ footer {
     padding: 2px;
     margin-top: -10px;
     background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
-    max-width: 100vw; }
+    max-width: 100vw;
+  }
   .main-ventas .columnasx2 {
     padding: 4%;
     color: #0e0a03;
@@ -405,40 +443,48 @@ footer {
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 100vw; }
+    max-width: 100vw;
+  }
   .main-ventas .columnasx2 .hover-contacto {
-    margin: 10px; }
+    margin: 10px;
+  }
   .main-ventas .foto-venta {
     width: 200px;
-    max-width: 100vw; }
+    max-width: 100vw;
+  }
   footer {
     padding: 2px;
     clear: left;
     text-align: center;
-    background-color: #515e59; }
-    footer .flex-redes {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      flex-direction: row;
-      align-content: center;
-      align-items: flex-end;
-      padding: 2px;
-      justify-content: space-between; }
-    footer .logoface {
-      width: 55px;
-      height: 55px; }
-    footer .logoinsta {
-      width: 55px;
-      height: 55px; }
-    footer .logoyou {
-      width: 55px;
-      height: 55px; } }
-
+    background-color: #515e59;
+  }
+  footer .flex-redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+    padding: 2px;
+    justify-content: space-between;
+  }
+  footer .logoface {
+    width: 55px;
+    height: 55px;
+  }
+  footer .logoinsta {
+    width: 55px;
+    height: 55px;
+  }
+  footer .logoyou {
+    width: 55px;
+    height: 55px;
+  }
+}
 h1 {
-  font-family: 'Courgette', cursive;
-  font-family: 'Creepster', cursive;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Courgette", cursive;
+  font-family: "Creepster", cursive;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -452,7 +498,8 @@ h1 {
   color: orange;
   padding: 5px;
   margin-top: 10px;
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); }
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 
 .map {
   /* Ancho del contenedor */
@@ -467,19 +514,22 @@ h1 {
   flex-direction: column-reverse;
   margin: auto;
   width: 60%;
-  padding: 30px; }
+  padding: 30px;
+}
 
 /* ANCHO MAXIMO  Ubicacion*/
 @media (max-width: 414px) {
   .map {
     max-width: 100vw;
     height: 252px;
-    width: 344px; }
+    width: 344px;
+  }
   .header {
-    width: 199%; } }
-
+    width: 199%;
+  }
+}
 h1 {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -493,7 +543,8 @@ h1 {
   color: orange;
   padding: 5px;
   margin-top: 10px;
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); }
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 
 .gridd-padre {
   display: grid;
@@ -501,34 +552,39 @@ h1 {
   grid-template-rows: 1fr 1fr;
   gap: 20px 30px;
   grid-auto-flow: row;
-  grid-template-areas: "img00 img02" "img01 img3";
-  justify-items: center; }
+  grid-template-areas: "img00 img02" "img01 img3";
+  justify-items: center;
+}
 
 .imagen01 {
   grid-area: img00;
   width: 500px;
   height: 334px;
   border: 10px solid orange;
-  border-radius: 60px; }
+  border-radius: 60px;
+}
 
 .imagen02 {
   grid-area: img01;
   width: 500px;
   border: 10px solid orange;
-  border-radius: 60px; }
+  border-radius: 60px;
+}
 
 .imagen03 {
   grid-area: img02;
   width: 500px;
   border: 10px solid orange;
-  border-radius: 60px; }
+  border-radius: 60px;
+}
 
 .imagen04 {
   grid-area: img3;
   width: 500px;
   border: 10px solid orange;
   border-radius: 60px;
-  background-color: #7579ff; }
+  background-color: #7579ff;
+}
 
 .volver-arriba {
   align-items: center;
@@ -540,32 +596,38 @@ h1 {
   border: 2px solid orange;
   display: inline-block;
   padding: 5px;
-  margin: 20px; }
+  margin: 20px;
+}
 
 @media (max-width: 380px) {
   .gridd-padre {
     display: flex;
     padding: 20px;
-    flex-direction: column; }
+    flex-direction: column;
+  }
   .imagen01 {
     grid-area: img00;
     width: 330px;
     height: 300px;
-    padding: 5px; }
+    padding: 5px;
+  }
   .imagen02 {
     grid-area: img01;
     width: 330px;
-    padding: 5px; }
+    padding: 5px;
+  }
   .imagen03 {
     grid-area: img02;
     width: 330px;
-    padding: 5px; }
+    padding: 5px;
+  }
   .imagen04 {
     grid-area: img3;
     width: 330px;
-    padding: 5px; }
+    padding: 5px;
+  }
   .main h1 {
-    font-family: 'Courgette', cursive;
+    font-family: "Courgette", cursive;
     display: flex;
     flex-wrap: nowrap;
     align-content: stretch;
@@ -579,26 +641,30 @@ h1 {
     color: orange;
     padding: 5px;
     margin-top: 10px;
-    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); } }
-
+    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  }
+}
 .main-quienes-somos .video {
   position: relative;
-  right: -450px; }
+  right: -450px;
+}
 
 .seccion-you {
   width: 740px;
-  height: 300px; }
+  height: 300px;
+}
 
 p {
   color: orange;
   margin-left: 500px;
-  background-color: #030303;
+  background-color: rgb(3, 3, 3);
   font-size: 25px;
   font-family: sans-serif;
   text-align: center;
   padding: 20px;
   display: block;
-  margin: 50px; }
+  margin: 50px;
+}
 
 header .navbar {
   display: flex;
@@ -607,20 +673,22 @@ header .navbar {
   align-items: center;
   width: 1990px;
   margin: 20px;
-  padding: 20px; }
-  header .navbar .container-fluid {
-    display: flex;
-    flex-wrap: inherit;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px; }
-
+  padding: 20px;
+}
+header .navbar .container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
 header .nav-link {
   margin: 7px;
-  padding: 15px; }
+  padding: 15px;
+}
 
 main h1 {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -634,7 +702,8 @@ main h1 {
   color: orange;
   padding: 5px;
   margin-top: 10px;
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); }
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 
 .logo {
   width: 200px;
@@ -644,18 +713,21 @@ main h1 {
   border: 5px groove orange;
   border-radius: 20px;
   margin: 20px;
-  padding: 10px; }
+  padding: 10px;
+}
 
 /* ANCHO MAXIMO  Quienes-Somos*/
 @media (max-width: 360px) {
   .main-quienes-somos .video {
     position: relative;
-    right: -10px; }
+    right: -10px;
+  }
   .main-quienes-somos .seccion-you {
     width: 330px;
     right: 330px;
     height: 330px;
-    margin: auto; }
+    margin: auto;
+  }
   section .nuestrahistoria {
     color: violet;
     margin-left: 500px;
@@ -665,7 +737,8 @@ main h1 {
     text-align: center;
     padding: 20px;
     display: block;
-    margin: 9px; }
+    margin: 9px;
+  }
   section .nuestrahistoria p {
     margin-left: 500px;
     background-color: #030303;
@@ -674,28 +747,35 @@ main h1 {
     text-align: center;
     padding: 20px;
     display: block;
-    margin: 9px; }
+    margin: 9px;
+  }
   .logo {
-    max-width: 186px; }
+    max-width: 186px;
+  }
   .navbar {
-    width: 700px; }
+    width: 700px;
+  }
   .logoface {
-    width: 80px; }
+    width: 80px;
+  }
   .logoinsta {
-    width: 80px; }
+    width: 80px;
+  }
   .logoyou {
-    width: 80px; } }
-
+    width: 80px;
+  }
+}
 .formulario {
   flex-wrap: wrap;
   background-color: black;
   padding: 40px;
   margin: 2rem;
   text-align: center;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+}
 
 main h1 {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -709,11 +789,13 @@ main h1 {
   color: orange;
   padding: 5px;
   margin-top: 10px;
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%); }
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 
 form-text {
   width: 50px;
-  padding: 50px 20px; }
+  padding: 50px 20px;
+}
 
 input,
 textarea {
@@ -721,8 +803,9 @@ textarea {
   border-radius: 25px;
   margin-bottom: 20px;
   border: 2px solid orange;
-  color: #080501;
-  outline: none; }
+  color: rgb(8, 5, 1);
+  outline: none;
+}
 
 label {
   color: orange;
@@ -732,7 +815,8 @@ label {
   background-color: black;
   border: 1px solid orange;
   padding: 10px 20px;
-  margin: 15px 0; }
+  margin: 15px 0;
+}
 
 .politica-condicion {
   font-size: 20px;
@@ -740,17 +824,20 @@ label {
   color: #b224ef;
   display: flex;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .hover-contacto:hover {
   transform: scale(1.1);
-  background-color: #f1bbbb; }
+  background-color: #f1bbbb;
+}
 
 /* ANCHO MAXIMO  Contacto*/
 @media (max-width: 768px) {
   label {
-    color: #f5f7f2;
-    background-color: #090a0a; }
+    color: rgb(245, 247, 242);
+    background-color: rgb(9, 10, 10);
+  }
   .formulario {
     display: flex;
     background-color: #aa7f7f;
@@ -762,4 +849,6 @@ label {
     margin: 2rem;
     text-align: center;
     margin-bottom: 60px;
-    flex-direction: column; } }
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -80,8 +80,9 @@ h1 {
 @media (max-width: 380px) {
 
     .gridd-padre {
-        display: block;
+        display: flex;
         padding: 20px;
+        flex-direction: column;
     }
 
     .imagen01 {
