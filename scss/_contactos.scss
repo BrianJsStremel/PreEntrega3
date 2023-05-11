@@ -6,6 +6,24 @@
     text-align: center;
     margin-bottom: 60px;
 }
+.button {
+    background-color: #1a85b6;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    scale: (1.3);
+}
 
 main {
     h1 {
